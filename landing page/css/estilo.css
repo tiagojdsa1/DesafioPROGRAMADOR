@@ -6,6 +6,8 @@ body {
     height: 0;    
 }    
 
+/* ESTILIZANDO O NAVBAR */
+
 .menu {
     background-color: #234BAD;    
     display:inline-block;
@@ -25,7 +27,7 @@ body {
     float: right;        
 }
 
-.top li {
+ .top li {
     list-style-type: none;
     display: inline-block;
     margin-inline: 105px;  
@@ -38,6 +40,8 @@ body {
     text-decoration: none;
     color: white   
 }
+
+/* ESTILIZANDO O FORMULARIO */
 
 .row {
     background-color: #ebe0c9;
@@ -75,6 +79,25 @@ input, textarea {
     
 }
 
-.teste {
+.corpo {
     background-color: #F4B225;
+}
+
+/* ESTILIZANDO O FOOTER */
+
+footer {
+    background-color:#234bad ;
+}
+
+.linha {
+    width: 100%;
+    display: inline-block;
+    height: 250px;
+}
+
+.col {
+    width: 33.3%;    
+    float: left;
+    text-align: left;
+    font-size: 16px;
 }
