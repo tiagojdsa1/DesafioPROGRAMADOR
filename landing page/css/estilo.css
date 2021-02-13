@@ -5,17 +5,24 @@ body {
 }    
 
 .menu {
-    background-color: #234BAD;
+    background-color: #234BAD;    
+    display:inline-block;
+    width: 100%;
 }
 
+.top {
+    
+}
 .top img {
     max-width: 250px;
     width: 20%;
-    float: left;    
+    float: left;
+    position: relative;
+    top: -6px;
     
 }
 
-.top nav {
+.navbar {
     width: 80%;
     float: right; 
        
@@ -24,7 +31,13 @@ body {
 .top li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 50px;   
-    color: white;
+    margin-left: 100px;   
+    text-align: center;
+    margin-top: 1em;
+    text-decoration: none;
     
+}
+.top a {
+    text-decoration: none;
+    color: white;
 }
