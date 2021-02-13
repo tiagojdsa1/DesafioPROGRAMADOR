@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js"></script>
 </head>    
 <body>
          <!-- INICIO MENU -->
@@ -21,8 +22,23 @@
         </div>
     </header>
     <section>
-        <div>
-            <h2>Preencha os dados</h2>
+        <div class="row">    
+            <form action="">
+                <h3>Preencha os dados</h3>
+                <p>Nome:
+                    <input placeholder="Digite seu nome" type="text" name="nome" id="nomeid">
+                </p>
+                <p>Telefone:
+                    <input placeholder="(xx) 4444-4444" type="tel" name="telefone" id="telid">
+                </p>
+                <p>E-mail:
+                    <input placeholder="exemplo@exemplo.com" type="email" name="email" id="emailid">
+                </p>
+
+                <textarea placeholder="Deixe sua opnião" name="texto" id="textoid" cols="30" rows="10"></textarea>
+                
+            </form>
+
         </div>
     </section>
     

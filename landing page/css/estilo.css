@@ -1,7 +1,9 @@
 body {    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
+    font-style: normal;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    height: 0;    
 }    
 
 .menu {
@@ -10,34 +12,33 @@ body {
     width: 100%;
 }
 
-.top {
-    
-}
 .top img {
     max-width: 250px;
     width: 20%;
     float: left;
     position: relative;
-    top: -6px;
-    
+    top: -6px;    
 }
 
 .navbar {
     width: 80%;
-    float: right; 
-       
+    float: right;        
 }
 
 .top li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 100px;   
+    margin-inline: 105px;  
     text-align: center;
-    margin-top: 1em;
-    text-decoration: none;
-    
+    margin-top: 2em;
+    text-decoration: none;    
 }
+
 .top a {
     text-decoration: none;
-    color: white;
+    color: white   
+}
+
+.row {
+    background-color: #F4B225;
 }
