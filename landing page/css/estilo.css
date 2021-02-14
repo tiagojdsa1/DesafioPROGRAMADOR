@@ -72,12 +72,12 @@ label {
 
 input, textarea {
     width: 200px;
-    padding: 10px;
-    color: #234bad;
+    padding: 10px;    
     margin-left: 5px;
     margin-top: 5px;    
     border: 1px solid;
     border-radius: 8px;
+    outline: 0;
 }
 
 textarea {
@@ -85,6 +85,7 @@ textarea {
     height: 6em;    
     resize: vertical;
 }
+
 .enviar {        
     cursor:pointer;
     display: block;
