@@ -1,2 +1,0 @@
-# DesafioPROGRAMADOR
-landing page
