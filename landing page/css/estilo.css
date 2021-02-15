@@ -50,11 +50,15 @@ body {
 
 .row {
     background-color: #ebe0c9;
-    border-radius: 10px;
+    border-radius: 40px;
     padding: 15px;
     width: 950px;
     margin: auto;
     box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+
+.titulo {
+    text-align: center;
 }
 
 form {    
@@ -95,7 +99,6 @@ textarea {
     cursor:pointer;
     display: block;
     margin: auto;
-    
 }
 
 .corpo {
@@ -144,8 +147,5 @@ footer {
     text-align: center;
     background-color: #f4b225;
     width: 100%;
-    display:inline-block;
-    
-    
-
+    display:inline-block;  
 }
