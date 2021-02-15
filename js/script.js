@@ -20,8 +20,7 @@ function enviar(){
                 return false
                 }     else {
                     alert('Obrigado sr(a) ' + nome + ' os seus dados foram encaminhados com sucesso');
-                }     
-    
+                }               
 } 
 
     
