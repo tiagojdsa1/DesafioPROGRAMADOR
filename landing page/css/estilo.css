@@ -37,8 +37,13 @@ body {
 }
 
 .top a {
-    text-decoration: none;
-    color: white   
+    color: white;
+    text-decoration: none
+}
+
+.top a:hover {
+    text-decoration: underline; 
+    color:#F4B225
 }
 
 /* ESTILIZANDO O FORMULARIO */
@@ -123,7 +128,12 @@ footer {
     text-align: center;
     margin-top: 1em;
     text-decoration: none;
-    color: white;    
+    color: white;      
+}
+
+.conteiner a:hover {
+    text-decoration: underline; 
+    color:#F4B225
 }
 
 .text p {
