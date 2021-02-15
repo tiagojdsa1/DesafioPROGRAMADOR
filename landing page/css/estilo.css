@@ -1,9 +1,9 @@
 body {    
     font-style: normal;
-    font-family: Lato, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
     margin: 0;
-    height: 0;    
+    height: 0;  
 }    
 
 /* ESTILIZANDO O NAVBAR */
@@ -123,10 +123,19 @@ footer {
     text-align: center;
     margin-top: 1em;
     text-decoration: none;
-    color: white;
-    
+    color: white;    
 }
 
 .text p {
     color: white;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #f4b225;
+    width: 100%;
+    display:inline-block;
+    
+    
+
 }
